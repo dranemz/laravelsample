@@ -1,0 +1,9 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Profolio</title>
+    </head>
+    <body>
+        @yield('content')
+    </body>
+</html>
