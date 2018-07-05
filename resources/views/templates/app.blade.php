@@ -5,5 +5,7 @@
     </head>
     <body>
         @yield('content')
+
+        @include('templates.sidebar')
     </body>
 </html>
