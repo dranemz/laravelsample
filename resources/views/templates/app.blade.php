@@ -8,6 +8,9 @@
     </head>
     <body>
         @include('templates.nav')
+        
+        @include('templates.alerts')
+        
         @yield('content')
 
         @include('templates.sidebar')

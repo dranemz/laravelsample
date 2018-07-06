@@ -5,17 +5,6 @@
     <div class="col-md-4">
         <div class="card">
             <div class="card-body">
-                @if($errors->all())
-                    <div class="alert alert-danger" role="alert">
-                        <h4 class="alert-heading">Error!</h4>
-                        <p>Please fill all the required fields</p>
-                        <hr>
-                    @foreach($errors->all() as $error)
-                            <p class="mb-0">{{$error}}</p>
-                        
-                    @endforeach
-                    </div>
-                @endif
                 <form action="{{URL::to('/submit')}}" method="post">
                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                 <div class="form-group">

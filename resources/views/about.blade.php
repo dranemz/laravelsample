@@ -1,5 +1,6 @@
 @extends('templates.app')
 
+@section('content')
 <h1>About</h1>
 <div class="col-md-12">
     <div class="card">
@@ -8,3 +9,4 @@
         </div>
     </div>
 </div>
+@endsection

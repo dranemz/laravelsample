@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Contact;
 
 class ContactController extends Controller
 {
@@ -18,6 +19,13 @@ class ContactController extends Controller
             'email'=> 'required',
             'message'=> 'required'
         ]);
-        echo "Message sent";
+        
+        //create message
+        $contact = new Contact;
+        $contact->email = $request->input('email');
+        $contact->message = $request->input('message');
+        //save message
+        $contact->save();
+        return redirect('/home')->with('success','Message sent');
     }
 }
