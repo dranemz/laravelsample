@@ -20,3 +20,6 @@ Route::get('/home', function () {
 Route::get('/about', function () {
     return view('about');
 });
+//Contact
+Route::get('/contact','ContactController@index');
+Route::post('submit','ContactController@submit');
