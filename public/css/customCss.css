@@ -1,0 +1,44 @@
+h2{
+    color:#6c757d;
+}
+.custom_section
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.progress{
+    height:30px;
+    margin-top:10px;
+}
+._footer{
+    border:2px solid #212529;
+    margin-bottom:0px;
+    padding-top:20px;
+    min-height:100px;
+    background-color:#212529;
+    text-align:center;
+}
+._footer>p{
+    font-family:'helvetica';
+    font-size:13px;
+    color:gray;
+}
+._arrowUp{
+    position:fixed;
+    z-index:1;
+    bottom:0;
+    right:0;
+    margin-right:20px;
+    margin-bottom:20px;
+    
+}
+._arrowUp>a{
+    display:block;
+    text-decoration:none;
+    height:30px;
+    width:50px;
+    background-image:url('/image/arrowUp.png');
+    background-size:100% 100%;
+    opacity:0.5;
+
+}
