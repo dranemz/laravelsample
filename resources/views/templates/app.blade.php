@@ -6,6 +6,13 @@
         <title>Profolio</title>
         <link rel="stylesheet" href="/css/app.css">
         <style>
+            h2{
+                color:#6c757d;
+            }
+            .about_div
+            {
+                padding-top: 50px;
+            }
             .progress{
                 height:30px;
                 margin-top:10px;
